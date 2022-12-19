@@ -1,4 +1,6 @@
 github-to-sqlite
-pandas
-sphinx-book-theme
 myst-nb
+pandas
+rich
+sphinx-book-theme
+sqlite-utils
