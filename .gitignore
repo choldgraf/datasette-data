@@ -1,0 +1,4 @@
+docs/_static/github.db
+docs/_build
+.virtual_documents
+.ipynb_checkpoints

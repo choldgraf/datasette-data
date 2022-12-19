@@ -1,0 +1,4 @@
+github-to-sqlite
+pandas
+sphinx-book-theme
+myst-nb
