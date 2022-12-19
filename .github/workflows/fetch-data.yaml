@@ -44,7 +44,9 @@ jobs:
           echo "{\"github_personal_token\": \"$GITHUB_ACCESS_TOKEN\"}" > docs/scripts/auth.json
 
       - name: Download latest GitHub data
-        run: python docs/scripts/fetch-data.py
+        run: |
+          cd docs/scripts
+          python fetch-data.py
 
       - run: sphinx-build docs docs/_build/html
         env:
